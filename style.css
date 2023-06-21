@@ -1,7 +1,39 @@
-p {
-	color: green;
+html {
+	background: rgb(37, 207, 102);
 }
 
 body {
-	background-color: pink;
+	background-color: rgb(255, 145, 200);
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin: 50px;
+	padding: 70px;
+	border-top: 15px solid rgb(255, 190, 235);
+}
+
+h1 {
+	color: rgb(255, 255, 255);
+	font-size: 4em;
+}
+
+h2 {
+	color: rgb(71, 37, 207);
+	font-size: 2em;
+}
+
+h3 {
+	color: rgb(255, 190, 235);
+	font-size: 1.4em;
+}
+
+p {
+	color: rgb(0, 0, 0);
+	line-height: 1.5em;
+}
+
+#blogs {
+	border-top: 1px solid rgb(255, 255, 255);
+}
+
+.blog-post {
+	border-bottom: 1px dotted rgb(255, 255, 255);
 }
