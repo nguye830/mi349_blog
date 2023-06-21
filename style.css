@@ -37,3 +37,8 @@ p {
 .blog-post {
 	border-bottom: 1px dotted rgb(255, 255, 255);
 }
+
+section {
+	display: flex;
+	flex-direction: column;
+}
