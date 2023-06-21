@@ -42,3 +42,16 @@ section {
 	display: flex;
 	flex-direction: column;
 }
+
+.sticky {
+	position: sticky;
+	position: -webkit-sticky; 
+	top: 0;
+}
+
+.img-container {
+	height: 65px;
+	width: 65px;
+	float: right;
+	margin-right: 20px;
+}
