@@ -5,7 +5,7 @@ html {
 body {
 	background-color: rgb(255, 145, 200);
 	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	margin: 50px;
+	margin: 30px;
 	padding: 70px;
 	border-top: 15px solid rgb(255, 190, 235);
 }
@@ -16,12 +16,12 @@ h1 {
 }
 
 h2 {
-	color: rgb(71, 37, 207);
+	color: rgb(37, 207, 102);
 	font-size: 2em;
 }
 
 h3 {
-	color: rgb(255, 190, 235);
+	color: rgb(255, 145, 200); 
 	font-size: 1.4em;
 }
 
@@ -54,4 +54,26 @@ section {
 	width: 65px;
 	float: right;
 	margin-right: 20px;
+}
+
+header {
+
+}
+
+section {
+display: flex;
+}
+
+article {
+background-color: rgb(243, 228, 209);
+padding: 15px;
+flex: 3;
+}
+
+article:nth-of-type(1) {
+	flex: 3;
+}
+
+footer {
+
 }
